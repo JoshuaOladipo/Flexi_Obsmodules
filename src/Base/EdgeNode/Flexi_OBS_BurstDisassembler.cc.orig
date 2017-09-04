@@ -1,0 +1,134 @@
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Lesser General Public License for more details.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+// 
+
+#include "Flexi_OBS_BurstDisassembler.h"
+
+Define_Module(Flexi_OBS_BurstDisassembler);
+
+Flexi_OBS_BurstDisassembler::~Flexi_OBS_BurstDisassembler(){
+    //   //Cleanup receivedBurst queue
+    //   list<OBS_Burst*>::iterator iter_list;
+    //   OBS_Burst *item;
+    //   for(iter_list = receivedBursts.begin();iter_list != receivedBursts.end(); iter_list++){
+    //      item = *iter_list;
+    //      delete item;
+    //   }
+    //   receivedBursts.clear();
+}
+
+void Flexi_OBS_BurstDisassembler::initialize(){
+    updateRouteId = registerSignal("updateRoute");
+    burstLostId = registerSignal("burstLost");
+    recvBursts = 0;
+    recvBcps = 0;
+    recvControls = 0;
+    endToEndAckEnabled = par("endToEndAckEnabled");
+    bcpSources.setName("message senders");
+    burstLostByImpairments = 0;
+    burstLost = 0;
+
+    WATCH(recvBcps);
+    WATCH(recvControls);
+    WATCH(recvBursts);
+    WATCH(burstLost);
+    WATCH(burstLostByImpairments);
+    table = check_and_cast<Flexi_OBS_EdgeRoutingTable*>(getParentModule()->getSubmodule("EdgeRoutingTable"));
+}
+
+void Flexi_OBS_BurstDisassembler::handleMessage(cMessage *msg){
+
+    Flexi_OBS_DisassemblerInfo* info = new Flexi_OBS_DisassemblerInfo();
+    info->setEntryPort(msg->getArrivalGate()->getPreviousGate()->getPreviousGate()->getId());
+
+    if(strcmp(msg->getName(), "BCP") ==0) {
+        Flexi_OBS_BurstControlPacket* bcp = check_and_cast<Flexi_OBS_BurstControlPacket*>(msg);
+        recvControls++;
+        recvBcps++;
+        bcpSources.record(bcp->getSrcAddr());
+
+        if(endToEndAckEnabled){
+            EndToEndAck* ack = new EndToEndAck("successfulBcpAck");
+            ack->setBurstifierId(bcp->getBurstifierId());
+            ack->setNumSeq(bcp->getNumSeq());
+            ack->setSenderId(bcp->getSrcAddr());
+
+            if(bcp->getRecordPath()){
+                ack->setEntryIdsArraySize(bcp->getPathPos());
+                for(int i =0; i < bcp->getPathPos(); i++)
+                    ack->setEntryIds(i, bcp->getEntryIds(i));
+
+                ack->setEntryIdPos(bcp->getPathPos());
+                ack->setControlInfo(info);
+            }else ack->setEntry_Id(bcp->getEntryId());
+
+            ack->setRoute(bcp->getRoute());
+            ack->setRoutePos(-4);
+            pendingAcks.push_back(ack);
+        }
+        delete msg;
+        return;
+    }
+
+    if(strcmp(msg->getName(), "burst") == 0)
+    {
+        OBS_Burst* burst = check_and_cast<OBS_Burst*>(msg);
+
+        if(burst->getIsReadable()){
+            recvBursts++;
+
+            //send successful message EndToEndAck
+            for(int i = 0; i < pendingAcks.size(); i++)
+            {
+                if(pendingAcks[i]->getNumSeq() == burst->getNumSeq() && pendingAcks[i]->getBurstifierId() == burst->getBurstifierId())
+                {
+                    sendDirect(pendingAcks[i], getRouter(), "internalComm");
+                    pendingAcks.erase(pendingAcks.begin()+i);
+                    break;
+                }
+            }
+        }else{
+            burstLostByImpairments++;
+            burstLost++;
+            emit(burstLostId, 1);
+        }
+
+        delete msg;
+        return;
+    }
+
+    if(strcmp(msg->getName(),"failedBcpAck") == 0 || strcmp(msg->getName(),"successfulBcpAck") == 0 || strcmp(msg->getName(),"ANT") == 0 || strcmp(msg->getName(),"traversalAck") == 0)
+    {
+        msg->removeControlInfo();
+        msg->setControlInfo(info);
+        recvControls++;
+        emit(updateRouteId, msg->dup());
+        sendDirect(msg, table, "ackIn");
+
+    }
+}
+
+void Flexi_OBS_BurstDisassembler::finish(){
+    recordScalar("burst lost",burstLost);
+    recordScalar("burst lost due to impairments", burstLostByImpairments);
+    recordScalar("received Bursts",recvBursts);
+    recordScalar("recieved BCP", recvBcps);
+    recordScalar("recieved control messages", recvControls);
+
+}
+
+Flexi_OBS_Routing* Flexi_OBS_BurstDisassembler::getRouter()
+{
+    return check_and_cast<Flexi_OBS_Routing*>(this->getParentModule()->getModuleByPath(".assembler.router"));
+}

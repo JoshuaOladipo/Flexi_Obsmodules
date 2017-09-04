@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/obsmodules/src/Networks/Horn/results/Greedy-*.vec"/>
+    <inputs name="/obsmodules/src/Networks/Horn/results/Greedy-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="0..29">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(0) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(1) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(2) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(3) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(4) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(5) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(6) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(7) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(8) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(9) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(10) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(11) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(12) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(13) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(14) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(15) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(16) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(17) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(18) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(19) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(20) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(21) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(22) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(23) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(24) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(25) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(26) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(27) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(28) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,2-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(29) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="30..59">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(30) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(31) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(32) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(33) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(34) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(35) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(36) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(37) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(38) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(39) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(40) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(41) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(42) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(43) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(44) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(45) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(46) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(47) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(48) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(49) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(50) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(51) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(52) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(53) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(54) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(55) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(56) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(57) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(58) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(59) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="60..89">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(60) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(61) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(62) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(63) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(64) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(65) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(66) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(67) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(68) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(69) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(70) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(71) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(72) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(73) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(74) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(75) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(76) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(77) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(78) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(79) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(80) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(81) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(82) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(83) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(84) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(85) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(86) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(87) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(88) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,1-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(89) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="90..119">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(90) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(91) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(92) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(93) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(94) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(95) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(96) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(97) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(98) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(99) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(100) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(101) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(102) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(103) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(104) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(105) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(106) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(107) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(108) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(109) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(110) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(111) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(112) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(113) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(114) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(115) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(116) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(117) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(118) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2400,0.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(119) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="120..149">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(120) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(121) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(122) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(123) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(124) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(125) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(126) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(127) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(128) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(129) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(130) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(131) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(132) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(133) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(134) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(135) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(136) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(137) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(138) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(139) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(140) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(141) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(142) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(143) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(144) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(145) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(146) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(147) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(148) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,2-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(149) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="150..179">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(150) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(151) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(152) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(153) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(154) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(155) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(156) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(157) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(158) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(159) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(160) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(161) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(162) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(163) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(164) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(165) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(166) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(167) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(168) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(169) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(170) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(171) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(172) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(173) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(174) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(175) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(176) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(177) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(178) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(179) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="180..209">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(180) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(181) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(182) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(183) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(184) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(185) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(186) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(187) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(188) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(189) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(190) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(191) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(192) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(193) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(194) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(195) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(196) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(197) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(198) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(199) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(200) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(201) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(202) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(203) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(204) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(205) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(206) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(207) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(208) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,1-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(209) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="210..239">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(210) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(211) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(212) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(213) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(214) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(215) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(216) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(217) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(218) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(219) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(220) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(221) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(222) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(223) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(224) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(225) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(226) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(227) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(228) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(229) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(230) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(231) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(232) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(233) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(234) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(235) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(236) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(237) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(238) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2600,0.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(239) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="240..269">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(240) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(241) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(242) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(243) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(244) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(245) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(246) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(247) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(248) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(249) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(250) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(251) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(252) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(253) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(254) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(255) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(256) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(257) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(258) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(259) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(260) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(261) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(262) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(263) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(264) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(265) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(266) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(267) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(268) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,2-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(269) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="270..299">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(270) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(271) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(272) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(273) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(274) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(275) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(276) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(277) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(278) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(279) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(280) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(281) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(282) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(283) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(284) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(285) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(286) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(287) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(288) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(289) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(290) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(291) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(292) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(293) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(294) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(295) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(296) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(297) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(298) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(299) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="300..329">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(300) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(301) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(302) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(303) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(304) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(305) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(306) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(307) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(308) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(309) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(310) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(311) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(312) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(313) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(314) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(315) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(316) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(317) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(318) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(319) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(320) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(321) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(322) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(323) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(324) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(325) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(326) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(327) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(328) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,1-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(329) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+    <datasets name="330..359">
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#0.vec) AND attr:configname(Greedy) AND attr:runnumber(330) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#1.vec) AND attr:configname(Greedy) AND attr:runnumber(331) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#2.vec) AND attr:configname(Greedy) AND attr:runnumber(332) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#3.vec) AND attr:configname(Greedy) AND attr:runnumber(333) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#4.vec) AND attr:configname(Greedy) AND attr:runnumber(334) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#5.vec) AND attr:configname(Greedy) AND attr:runnumber(335) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#6.vec) AND attr:configname(Greedy) AND attr:runnumber(336) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#7.vec) AND attr:configname(Greedy) AND attr:runnumber(337) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#8.vec) AND attr:configname(Greedy) AND attr:runnumber(338) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#9.vec) AND attr:configname(Greedy) AND attr:runnumber(339) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#10.vec) AND attr:configname(Greedy) AND attr:runnumber(340) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#11.vec) AND attr:configname(Greedy) AND attr:runnumber(341) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#12.vec) AND attr:configname(Greedy) AND attr:runnumber(342) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#13.vec) AND attr:configname(Greedy) AND attr:runnumber(343) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#14.vec) AND attr:configname(Greedy) AND attr:runnumber(344) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#15.vec) AND attr:configname(Greedy) AND attr:runnumber(345) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#16.vec) AND attr:configname(Greedy) AND attr:runnumber(346) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#17.vec) AND attr:configname(Greedy) AND attr:runnumber(347) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#18.vec) AND attr:configname(Greedy) AND attr:runnumber(348) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#19.vec) AND attr:configname(Greedy) AND attr:runnumber(349) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#20.vec) AND attr:configname(Greedy) AND attr:runnumber(350) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#21.vec) AND attr:configname(Greedy) AND attr:runnumber(351) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#22.vec) AND attr:configname(Greedy) AND attr:runnumber(352) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#23.vec) AND attr:configname(Greedy) AND attr:runnumber(353) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#24.vec) AND attr:configname(Greedy) AND attr:runnumber(354) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#25.vec) AND attr:configname(Greedy) AND attr:runnumber(355) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#26.vec) AND attr:configname(Greedy) AND attr:runnumber(356) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#27.vec) AND attr:configname(Greedy) AND attr:runnumber(357) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#28.vec) AND attr:configname(Greedy) AND attr:runnumber(358) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/obsmodules/src/Networks/Horn/results/Greedy-2800,0.5-#29.vec) AND attr:configname(Greedy) AND attr:runnumber(359) AND module(Horn) AND name(BurstLossRatio:vector)" type="VECTOR"/>
+      <items xsi:type="scave:Apply" operation="timewinavg">
+        <params name="windowSize" value="1"/>
+      </items>
+      <items xsi:type="scave:Apply" operation="aggregator">
+        <params name="function" value="average"/>
+      </items>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>
